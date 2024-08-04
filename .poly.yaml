@@ -5,10 +5,6 @@ workspaces:
       - url: git@github.com:polyrepopro/api.git
         branch: main
         path: pkg/api
-        auth:
-          key: ~/.ssh/id_rsa
       - url: git@github.com:polyrepopro/cli.git
         branch: main
         path: pkg/cli
-        auth:
-          key: ~/.ssh/id_rsa
