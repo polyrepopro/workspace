@@ -1,0 +1,10 @@
+path: /Users/matthewdavis/workspace/polyrepo/.poly.yaml
+workspaces:
+  - name: api
+    path: ~/workspace/polyrepo-test
+    repositories:
+      - url: git@github.com:polyrepopro/api.git
+        branch: main
+        path: pkg/api
+        auth:
+          key: ~/.ssh/id_rsa
