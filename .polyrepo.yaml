@@ -1,0 +1,10 @@
+workspaces:
+  - name: api
+    path: ~/workspace/polyrepo-dev
+    repositories:
+      - url: git@github.com:polyrepopro/api.git
+        branch: main
+        path: pkg/api
+      - url: git@github.com:polyrepopro/cli.git
+        branch: main
+        path: pkg/cli
