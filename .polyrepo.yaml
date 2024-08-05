@@ -1,5 +1,5 @@
 workspaces:
-  - name: api
+  - name: dev
     path: ~/workspace/polyrepo-dev
     repositories:
       - url: git@github.com:polyrepopro/api.git
